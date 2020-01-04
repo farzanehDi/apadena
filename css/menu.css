@@ -171,8 +171,8 @@
 }
 
 #menu .wsmenu {
-    float: right;
-    width: 69%;
+    /*float: right;*/
+    /*width: 69%;*/
 
 }
 
@@ -706,6 +706,8 @@
     border-left:solid rgba(255, 255, 255, 0.71) 1px;
 }
 
-
+.carousel-item img{
+    width: 1905px;
+}
 
 

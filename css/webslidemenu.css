@@ -172,7 +172,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0px 0px;
-    max-width: 1700px;
+    /*max-width: 1700px;*/
     background-color:#e10b17;
 }
 
@@ -181,8 +181,8 @@
     font-size: 14px;
     padding: 0px 0px 0px 0px;
     margin: 0px auto;
-    width: 95%;
-    float: left;
+    /*width: 95%;*/
+    /*float: left;*/
     height:40px;
     /*border-left: 1px solid rgba(0, 0, 0, 0.1);*/
 }

@@ -104,6 +104,7 @@ a:hover{
     background-color: white;
     z-index: 2;
     max-width:200px;
+    overflow:hidden;
 }
 #advertising img{
     height: 250px;
@@ -169,7 +170,7 @@ small{
 }
 
 .container-fluid{
-    max-width: 1700px;
+    max-width: 1950px;
     padding: 0!important;
 }
 
@@ -242,8 +243,27 @@ h2{
     font-size: 17px;
     font-weight: bold;
     transition: all 0.4s;
+    color:white;
 }
 .namad a:hover{
     color:#f53f21;
 }
 
+.advertisingDakheli h3{
+    font-size: 16px;
+    color: #9a2616!important;
+}
+.advertisingDakheli a{
+    color: #9a2616!important;
+    font-size: 13px;
+    text-align: right;
+}
+.advertisingDakheli a:hover{
+    color: #f53f21!important;
+
+}
+.advertisingDakheli hr{
+    width:100%;
+    border-color:#9a2616!important;
+
+}
