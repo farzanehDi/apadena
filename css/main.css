@@ -267,3 +267,116 @@ h2{
     border-color:#9a2616!important;
 
 }
+
+.fa-map-marker-alt{
+    color:#cf2428;
+    font-size:25px;
+}
+
+.takhfifTxt{
+    font-size: 14px!important;
+}
+
+.takhfifImg img{
+    height:250px;
+    width:100%;
+}
+
+.sameDiscountImg img{
+    height:100px;
+}
+
+.sameDiscount{
+    background-color: #646363;
+    height: 380px;
+}
+.offerMain{
+    height: 380px;
+}
+
+.userComment{
+    background-color: #f6efef;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-color:#fff #fff red!important;
+    border-bottom: solid red 2px;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border-color:#fff #fff red!important;
+    border-bottom: solid red 2px;
+}
+
+.faq,.aboutUs{
+    font-size: 14px;
+}
+
+.reply{
+    background-color: #fafafa;
+    border:solid #dcdcdc 1px;
+    border-radius: 5px;
+}
+
+.profilePicture{
+    max-width:100px!important;
+    max-height:100px!important;
+}
+/***star rating*/
+
+.rating-stars{direction: ltr}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+    list-style-type:none;
+    padding:0;
+
+    -moz-user-select:none;
+    -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+    display:inline-block;
+
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+    font-size:1.5em; /* Change the size of the stars */
+    color:#ccc; /* Color on idle state */
+    cursor: pointer;
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+    color:#FFCC36!important;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+    color:#FF912C;
+}
+
+.bgInput{
+    background-color: #9e0b0f!important;
+    border-color: black!important;
+    color:white!important;
+}
+.loginBtn{
+    background-color: #555555!important;
+    border-color: black!important;
+    color: white!important;
+}
+.loginBtn:hover{
+    background-color: #373737 !important;
+    border-color: black!important;
+
+}
+
+.downloadApp{
+    background-color: #555555!important;
+    border-color: black!important;
+    color: black!important;
+}
+.downloadApp:hover{
+    background-color: #6f6f6f !important;
+
+}

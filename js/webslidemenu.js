@@ -101,12 +101,32 @@ $( document ).ready(function() {
     });
 
     //------
+
 });
 
 $(window).on("resize", function () {
+    heightOfSide();
 
+}).trigger("resize");
+
+
+$('.takhfifComment li a').on('click',function(e){
+
+    if($(this).attr('href')=='#faq'){
+        $('#comment').removeClass('active');
+        $('#faq').addClass('active');
+        heightOfSide();
+    }else {
+        $('#comment').addClass('active');
+        $('#faq').removeClass('active');
+        heightOfSide();
+    }
+
+});
+
+function heightOfSide(){
     var b = $(".bg-offerGray").outerHeight(true);
     var c = $(".bg-offRed").outerHeight(true);
 
     $("#advertising").css("height", b + c -25);
-}).trigger("resize");
+}
